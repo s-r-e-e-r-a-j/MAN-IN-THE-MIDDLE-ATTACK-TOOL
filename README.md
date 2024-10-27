@@ -6,5 +6,5 @@ sudo python3 arp_mitm.py -ip_range 192.168.1.0/24
 
 if any module is missing install it by executing pip3 install misssingmodulename on terminal
 
-if you will run this on desktop or other path a pcap file is generated in running path all the 
-results are in the pcap file.open it on wireshark to analyse the packets received
+if you run this tool in kali linux or other hacking os on desktop by executing python3 arp_mitm.py -ip_range 192.168.1.0/24 it will display all the devices connected to your wifi network.then select devices by its
+id then the arp poisoning will start if you want to stop press ctrl+c .then all the result will be stored in a pcap file on Desktop.then open it on wireshark to analyse the received packets
