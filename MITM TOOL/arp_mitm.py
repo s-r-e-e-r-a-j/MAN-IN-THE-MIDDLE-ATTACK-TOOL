@@ -3,7 +3,7 @@
 # Disclaimer: This script is for educational purposes only.  
 # Do not use against any network that you don't own or have authorization to test. 
 # To run this script use:
-# sudo python3 arp_mitm.py -ip_range (ex. 192.168.1.0/24)
+# sudo python3 arp_mitm.py -ip_range  192.168.1.0/24
 
 import scapy.all as scapy
 import subprocess
