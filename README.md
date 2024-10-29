@@ -2,8 +2,8 @@ This Is A arp poisoning  Man In The Middle Attack Tool Maded With Python Languag
 
 Run This Tool on kali linux or other hacking os by Executing :
 
-```sudo python3 arp_mitm.py  
--ip_range 192.168.1.0/24 ```
+```sudo python3 arp_mitm.py  -ip_range 192.168.1.0/24 ```
+
 
 if any module is missing install it by executing
 ```pip3 install misssingmodulename``` on terminal
