@@ -12,9 +12,7 @@ Clone the respository:-
 
 ```cd 'MITM TOOL' ```
 
-  install Requirements for this tool :-
-
-```pip3 install -r requirements.txt```
+  Run the command ```pip install -r requirements.txt``` to install all the packages required in your virtual environment.
 
 Run This Tool on kali linux or other hacking os by Executing :
 
