@@ -12,40 +12,9 @@ Clone the respository:-
 
 ```cd 'MITM TOOL' ```
 
-Requirements :-
+  install Requirements for this tool :-
 
-1.scapy
-
-install it by ```pip3 install scapy```
-
-2.subprocess
-
-install it by ```pip3 install subprocess```
-
-3.sys
-
-install it by ```pip3 install sys```
-
-4.time
-
-install it by ```pip3 install time```
-
-
-6.os
-
-install it by ```pip3 install os```
-
-7.ipaddress
-
-install it by ```pip3 install ipaddress```
-
-8.threading
-
-
-install it by ```pip3 install threading```
-
-
-
+```pip3 install -r requirements.txt````
 
 Run This Tool on kali linux or other hacking os by Executing :
 
