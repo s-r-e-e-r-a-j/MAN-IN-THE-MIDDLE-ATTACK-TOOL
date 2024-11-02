@@ -14,7 +14,7 @@ Clone the respository:-
 
   install Requirements for this tool :-
 
-```pip3 install -r requirements.txt````
+```pip3 install -r requirements.txt```
 
 Run This Tool on kali linux or other hacking os by Executing :
 
