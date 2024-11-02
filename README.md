@@ -20,9 +20,11 @@ cd 'MITM TOOL'
 
 ## install requirements(optional):-
 
-in `kali linux ` all are preinstalled so don't need this on `kali linux`
+in `kali linux `  all are preinstalled so don't need this on `kali linux`
 
-```pip3 install -r requirements.txt```
+```bash
+pip3 install -r requirements.txt
+```
 
 
 ## Run This Tool on kali linux or other hacking os by Executing :
