@@ -14,32 +14,32 @@ Clone the respository:-
 
 Requirements :-
 
-scapy
+1.scapy
 
-instal it by ```pip3 install scapy```
+install it by ```pip3 install scapy```
 
-subprocess
+2.subprocess
 
 install it by ```pip3 install subprocess```
 
-sys
+3.sys
 
 install it by ```pip3 install sys```
 
-time
+4.time
 
 install it by ```pip3 install time```
 
 
-os
+6.os
 
 install it by ```pip3 install os```
 
-ipaddress
+7.ipaddress
 
 install it by ```pip3 install ipaddress```
 
-threading
+8.threading
 
 
 install it by ```pip3 install threading```
