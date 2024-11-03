@@ -20,7 +20,7 @@ cd 'MITM TOOL'
 
 ## install requirements(optional if you are using kali linux):-
 
-in `kali linux `  all are preinstalled so don't need this on `kali linux`
+#### In `kali linux `  all requirements are preinstalled so don't need this on `kali linux`
 
 ```bash
 pip3 install -r requirements.txt
@@ -34,11 +34,11 @@ sudo python3 arp_mitm.py  -ip_range 192.168.1.0/24
  ```
 
 
-if any module is missing install it by executing
+#### if any module is missing install it by executing
 ```bash
 pip3 install misssingmodulename
 ```
-on terminal
+#### on terminal
 
 #### if you run this tool in kali linux or other hacking os on desktop by executing
 ```bash
