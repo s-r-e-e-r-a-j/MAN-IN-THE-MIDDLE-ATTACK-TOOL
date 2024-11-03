@@ -20,28 +20,28 @@ cd 'MITM TOOL'
 
 ## install requirements(optional if you are using kali linux):-
 
-#### In `kali linux `  all requirements are preinstalled so don't need this on `kali linux`
+ In `kali linux `  all requirements are preinstalled so don't need this on `kali linux`
 
 ```bash
 pip3 install -r requirements.txt
 ```
 
 
-## Run This Tool on kali linux or other hacking os by Executing :
+ Run This Tool on kali linux or other hacking os by Executing :
 
 ```bash
 sudo python3 arp_mitm.py  -ip_range 192.168.1.0/24
  ```
 
 
-#### if any module is missing install it by executing
+if any module is missing install it by executing
 ```bash
 pip3 install misssingmodulename
 ```
-#### on terminal
+ on terminal
 
-#### if you run this tool in kali linux or other hacking os on desktop by executing
+ if you run this tool in kali linux or other hacking os on desktop by executing
 ```bash
 python3 arp_mitm.py  -ip_range 192.168.1.0/24
 ```
-#### it will display Ip Address of all the devices connected to your wifi network.then select a device for attack by its id then the arp poisoning will start if you want to stop press ```ctrl+c ```.then all the result will be stored in a pcap file named requests.pcap on Desktop.then open it on wireshark to analyse the received packets
+ it will display Ip Address of all the devices connected to your wifi network.then select a device for attack by its id then the arp poisoning will start if you want to stop press ```ctrl+c ```.then all the result will be stored in a pcap file named requests.pcap on Desktop.then open it on wireshark to analyse the received packets
