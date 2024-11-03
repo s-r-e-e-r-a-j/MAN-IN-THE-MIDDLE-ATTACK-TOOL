@@ -7,11 +7,11 @@
 
 
 ```bash
-git clone https://github.com/s-r-e-e-r-a-j/MAN-IN-THE-MIDDLE-ATTACK-TOOL.git
+git clone https://github.com/s-r-e-e-r-a-j/MITM-TOOL.git
 ```
 
 ```bash
-cd MAN-IN-THE-MIDDLE-ATTACK-TOOL
+cd MITM-TOOL
 ```
 
 ```bash
