@@ -16,14 +16,14 @@ MITM Tool is a Python-based network security tool for performing ARP (Address Re
 - **Root (sudo) privileges to run the script**
 - **Linux-based OS (Tested on Kali Linux)**
 ## Installation
-1.  *Install Dependencies:*
+1.  **Install Dependencies:**
  
 `Ensure you have Python 3.x installed `
 ```bash
 pip3 install -r requirements.txt
 ```
 
-2 . *Clone the Repository:*
+2 . **Clone the Repository:**
 
 Clone this repository to your local machine.
 
@@ -37,7 +37,7 @@ cd MITM-TOOL
 cd 'MITM TOOL'
 ```
 ## Usage
-1. *Run the Tool:*
+1. **Run the Tool:**
 
 To run the tool, use the following command with the desired IP range:
 
@@ -47,7 +47,7 @@ sudo python3 arp_mitm.py -ip_range 192.168.1.0/24
 ```
 Replace 192.168.1.0/24 with the IP range of your target network.
 
-2.  *Menu Interaction:*
+2.  **Menu Interaction:**
 
 Once the tool starts, it will display a list of devices found in the network and their IP/MAC addresses. You will then be prompted to select a target device for ARP poisoning.
 
@@ -62,11 +62,11 @@ ID      IP                MAC Address
 ```
 Choose the ID of the device whose ARP cache you want to poison.
 
-3. *Capture Packets:*
+3. **Capture Packets:**
 
 Once ARP poisoning is active, all intercepted packets will be saved in a requests.pcap file in 'MITM TOOL' Directory, which can be analyzed using Wireshark.
 
-4. *Stop the Tool:*
+4. **Stop the Tool:**
 
 To stop the script, simply press Ctrl + C.
 
@@ -76,19 +76,19 @@ To stop the script, simply press Ctrl + C.
 - **Network Disruption**: The tool can disrupt normal network traffic for both the target and the attacker’s machine. Use it responsibly in controlled environments.
 
 ## Example Workflow
-1. *Run the tool with the desired IP range:*
+1. **Run the tool with the desired IP range:**
 
 ```bash
 sudo python3 arp_mitm.py -ip_range 192.168.1.0/24
 ```
-2. *Select a device to target (ARP poisoning):*
+2. **Select a device to target (ARP poisoning):**
 
 ``` vbnet
 Please select the ID of the computer whose ARP cache you want to poison (ctrl+z to exit): 1
 ```
-3. *The script will begin ARP poisoning, sending spoofed ARP packets, and sniffing network traffic.*
+3. **The script will begin ARP poisoning, sending spoofed ARP packets, and sniffing network traffic.**
 
-4. *Intercepted packets are saved in `requests.pcap` on `'MITM TOOL' Directory and can be analyzed in Wireshark.*
+4. **Intercepted packets are saved in `requests.pcap` on `'MITM TOOL' Directory and can be analyzed in Wireshark.**
 
 
 ## License
