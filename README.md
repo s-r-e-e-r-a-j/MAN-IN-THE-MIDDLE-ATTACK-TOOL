@@ -64,7 +64,7 @@ Choose the ID of the device whose ARP cache you want to poison.
 
 3. **Capture Packets:**
 
-Once ARP poisoning is active, all intercepted packets will be saved in a requests.pcap file in 'MITM TOOL' Directory, which can be analyzed using Wireshark.
+Once ARP poisoning is active, all intercepted packets will be saved in a `requests.pcap` file in `'MITM TOOL'` Directory, which can be analyzed using Wireshark.
 
 4. **Stop the Tool:**
 
