@@ -54,7 +54,6 @@ Once the tool starts, it will display a list of devices found in the network and
 Example output:
 
 ```markdown
-Copy code
 ID      IP                MAC Address
 ------------------------------------------
 0       192.168.1.2       00:1a:2b:3c:4d:5e
