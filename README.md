@@ -34,7 +34,7 @@ git clone https://github.com/s-r-e-e-r-a-j/MITM-TOOL.git
 cd MITM-TOOL
 ```
 ```bash
-   cd 'MITM TOOL'
+cd 'MITM TOOL'
 ```
 ## Usage
 1. Run the Tool:
@@ -94,15 +94,14 @@ Please select the ID of the computer whose ARP cache you want to poison (ctrl+z 
 ```
 3. The script will begin ARP poisoning, sending spoofed ARP packets, and sniffing network traffic.
 
-Intercepted packets are saved in requests.pcap and can be analyzed in Wireshark.
+4. Intercepted packets are saved in `requests.pcap` on `'MITM TOOL' Directory and can be analyzed in Wireshark.
 
-Contributing
-Contributions to the tool are welcome! Feel free to open issues, submit bug reports, or suggest features through the GitHub repository.
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Disclaimer: Use this tool responsibly. Unauthorized usage is illegal and unethical. Always obtain permission before testing any network.
+## Disclaimer: 
+Use this tool responsibly. Unauthorized usage is illegal and unethical. Always obtain permission before testing any network.
 
 
 
