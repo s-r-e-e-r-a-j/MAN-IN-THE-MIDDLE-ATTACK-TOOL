@@ -74,12 +74,7 @@ To stop the script, simply press Ctrl + C.
 - **Legal Disclaimer**: This tool is intended for educational purposes only. Do not use it on any network without explicit permission from the network owner. Unauthorized use of this tool is illegal and can result in severe consequences.
 - **Root Privileges**: The script requires root (sudo) privileges to interact with network interfaces and manipulate ARP tables.
 - **Network Disruption**: The tool can disrupt normal network traffic for both the target and the attacker’s machine. Use it responsibly in controlled environments.
-## Script Overview
-- `arp_scan(ip_range)`: Scans the specified IP range to discover devices and their IP/MAC addresses.
-- `gateway_info(network_info)`: Identifies the network gateway by analyzing routing information.
-- `arp_spoofer(target_ip, target_mac, spoof_ip)`: Spoofs ARP packets to mislead the target into thinking the attacker is the gateway and vice versa.
-- `packet_sniffer(interface)`: Captures network packets and saves them in .pcap format for later inspection.
-- `allow_ip_forwarding()`: Enables IP forwarding on the attacker’s machine to route intercepted traffic.
+
 ## Example Workflow
 1. Run the tool with the desired IP range:
 
