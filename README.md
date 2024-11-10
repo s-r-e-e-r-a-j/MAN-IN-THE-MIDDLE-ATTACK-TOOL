@@ -18,11 +18,11 @@ MITM Tool is a Python-based network security tool for performing ARP (Address Re
 ## Installation
 1.  Install Dependencies:
  
-`Ensure you have Python 3.x installed and Scapy is available. Install Scapy with:`
-
+`Ensure you have Python 3.x installed `
 ```bash
-pip3 install scapy
+pip3 install -r requirements.txt
 ```
+
 2 . Clone the Repository:
 
 Clone this repository to your local machine.
