@@ -88,7 +88,7 @@ Please select the ID of the computer whose ARP cache you want to poison (ctrl+z 
 ```
 3. **The script will begin ARP poisoning, sending spoofed ARP packets, and sniffing network traffic.**
 
-4. **Intercepted packets are saved in `requests.pcap` on `'MITM TOOL' Directory and can be analyzed in Wireshark.**
+4. **Intercepted packets are saved in `requests.pcap` on `'MITM TOOL'` Directory and can be analyzed in Wireshark.**
 
 
 ## License
