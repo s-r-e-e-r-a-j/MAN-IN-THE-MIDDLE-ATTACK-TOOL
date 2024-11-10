@@ -11,6 +11,7 @@ MITM Tool is a Python-based network security tool for performing ARP (Address Re
 - **Multithreading**: Runs ARP spoofing and packet sniffing simultaneously.
 - **User Interface**: Displays a list of available devices and allows the user to select a target device for ARP poisoning.
 ## Requirements
+`All the requirements for this tool are pre-installed on kali linux.requirements means packages required for this tool to work.so don't need to install this things on kali linux`
 - **Python 3.x**
 - **Scapy (Python library for packet manipulation)**
 - **Root (sudo) privileges to run the script**
