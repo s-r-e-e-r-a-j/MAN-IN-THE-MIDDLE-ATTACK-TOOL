@@ -158,7 +158,7 @@ def process_sniffed_pkt(pkt):
     """ This function is a callback function that works with the packet sniffer. It receives every packet that goes through scapy.sniff(on_specified_interface) and writes it to a pcap file"""
     print("Writing to pcap file. Press ctrl + c to exit.")
     # We append every packet sniffed to the requests.pcap file which we can inspect with Wireshark.
-    scapy.wrpcap("\033[96mrequests.pcap\033[0m", pkt, append=True)
+    scapy.wrpcap("requests.pcap", pkt, append=True)
 
 
 def print_arp_res(arp_res):
