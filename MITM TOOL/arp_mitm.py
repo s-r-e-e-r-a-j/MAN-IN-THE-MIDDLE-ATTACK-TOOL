@@ -13,6 +13,7 @@ import os
 from ipaddress import IPv4Network
 import threading
 
+
 # We want the current working directory.
 cwd = os.getcwd()
 
@@ -157,7 +158,7 @@ def process_sniffed_pkt(pkt):
     """ This function is a callback function that works with the packet sniffer. It receives every packet that goes through scapy.sniff(on_specified_interface) and writes it to a pcap file"""
     print("Writing to pcap file. Press ctrl + c to exit.")
     # We append every packet sniffed to the requests.pcap file which we can inspect with Wireshark.
-    scapy.wrpcap("requests.pcap", pkt, append=True)
+    scapy.wrpcap("\033[96mrequests.pcap\033[0m", pkt, append=True)
 
 
 def print_arp_res(arp_res):
@@ -166,7 +167,7 @@ def print_arp_res(arp_res):
     # Basic user interface header
     print("")
     print("")
-    print("""
+    print( """\033[92m
     
        ############sreeraj#######################################################################
        ###################################sreeraj################################################
@@ -182,24 +183,24 @@ def print_arp_res(arp_res):
       ##########################################sreeraj###########################################
       ######################################################################sreeraj###############
     
-        """)
+        \033[0m""")
     print("")
     print("")
-    print("\n****************************************************************")
+    print("\033[34m\n****************************************************************")
     print("\n* Copyright of Sreeraj, 2024                             *")
     print("\n* www.youtube.com/@debugspecter                          *")
     print("\n* https://github.com/s-r-e-e-r-a-j                       *")
-    print("\n****************************************************************")
+    print("\n****************************************************************\033[0m")
     print("")
-    print("ID\t\tIP\t\t\tMAC Address")
+    print("\033[93mID\t\tIP\t\t\tMAC Address\033[0m")
     print("_________________________________________________________")
     for id, res in enumerate(arp_res):
         # We are formatting the to print the id (number in the list), the ip and lastly the mac address.
-        print("{}\t\t{}\t\t{}".format(id,res['ip'], res['mac']))
+        print("\033[33m{}\t\t{}\t\t{}\033[0m".format(id,res['ip'], res['mac']))
     while True:
         try:
             # We have to verify the choice. If the choice is valid then the function returns the choice.
-            choice = int(input("Please select the ID of the computer whose ARP cache you want to poison (ctrl+z to exit): "))
+            choice = int(input("\033[94mPlease select the ID of the computer whose ARP cache you want to poison (ctrl+z to exit): \033[0m"))
             if arp_res[choice]:
                 return choice
         except:
