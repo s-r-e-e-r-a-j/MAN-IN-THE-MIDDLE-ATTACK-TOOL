@@ -31,7 +31,7 @@ Clone this repository to your local machine.
 git clone https://github.com/s-r-e-e-r-a-j/MITM-TOOL.git
 ```
 ```bash
-cd MITM-TOOL
+cd MITMTOOL
 ```
 ```bash
 cd 'MITM TOOL'
