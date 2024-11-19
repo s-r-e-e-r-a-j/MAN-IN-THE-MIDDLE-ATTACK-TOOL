@@ -28,7 +28,7 @@ pip3 install -r requirements.txt
 Clone this repository to your local machine.
 
 ``` bash
-git clone https://github.com/s-r-e-e-r-a-j/MITM-TOOL.git
+git clone https://github.com/s-r-e-e-r-a-j/MITMTOOL.git
 ```
 ```bash
 cd MITMTOOL
