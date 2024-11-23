@@ -178,13 +178,9 @@ def print_arp_res(arp_res):
              |_|  |_| |_____|    |_|    |_|  |_|      |_|     \____/   \____/  |______|
                                                                            
      \033[0m""")
-    print("")
-    print("")
-    print("\033[34m\n****************************************************************")
-    print("\n* Copyright of Sreeraj, 2024                             *")
+    print("\n\033[34m* Copyright of Sreeraj, 2024                             *")
     print("\n* www.youtube.com/@debugspecter                          *")
-    print("\n* https://github.com/s-r-e-e-r-a-j                       *")
-    print("\n****************************************************************\033[0m")
+    print("\n* https://github.com/s-r-e-e-r-a-j                       *\033[0m")
     print("")
     print("\033[93mID\t\tIP\t\t\tMAC Address\033[0m")
     print("_________________________________________________________")
