@@ -23,7 +23,7 @@ MITM Tool is a Python-based network security tool for performing ARP (Address Re
 pip3 install -r requirements.txt
 ```
 
-2 . **Clone the Repository:**
+1. **Clone the Repository:**
 
 Clone this repository to your local machine.
 
@@ -32,6 +32,12 @@ git clone https://github.com/s-r-e-e-r-a-j/MITMTOOL.git
 ```
 ```bash
 cd MITMTOOL
+```
+2.  **Install Dependencies:**
+ 
+`Ensure you have Python 3.x installed `
+```bash
+pip3 install -r requirements.txt
 ```
 ```bash
 cd 'MITM TOOL'
