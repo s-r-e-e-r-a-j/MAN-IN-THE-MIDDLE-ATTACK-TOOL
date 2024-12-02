@@ -16,12 +16,6 @@ MITM Tool is a Python-based network security tool for performing ARP (Address Re
 - **Root (sudo) privileges to run the script**
 - **Linux-based OS (Tested on Kali Linux)**
 ## Installation
-1.  **Install Dependencies:**
- 
-`Ensure you have Python 3.x installed `
-```bash
-pip3 install -r requirements.txt
-```
 
 1. **Clone the Repository:**
 
