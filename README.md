@@ -24,15 +24,17 @@ Clone this repository to your local machine.
 ``` bash
 git clone https://github.com/s-r-e-e-r-a-j/MITMTOOL.git
 ```
+2.**Navigate to the MITMTOOL directory**
 ```bash
 cd MITMTOOL
 ```
-2.  **Install Dependencies:**
+3.  **Install Dependencies:**
  
 `Ensure you have Python 3.x installed `
 ```bash
 pip3 install -r requirements.txt
 ```
+4. **Navigate to the MITM TOOL directory** 
 ```bash
 cd 'MITM TOOL'
 ```
