@@ -24,7 +24,7 @@ Clone this repository to your local machine.
 ``` bash
 git clone https://github.com/s-r-e-e-r-a-j/MITMTOOL.git
 ```
-2. **Navigate in to the MITMTOOL directory**
+2. **Navigate  to the MITMTOOL directory**
 ```bash
 cd MITMTOOL
 ```
@@ -34,7 +34,7 @@ cd MITMTOOL
 ```bash
 pip3 install -r requirements.txt
 ```
-4. **Navigate in to the MITM TOOL directory** 
+4. **Navigate to the MITM TOOL directory** 
 ```bash
 cd 'MITM TOOL'
 ```
