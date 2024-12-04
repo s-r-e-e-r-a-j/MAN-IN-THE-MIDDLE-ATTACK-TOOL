@@ -24,7 +24,7 @@ Clone this repository to your local machine.
 ``` bash
 git clone https://github.com/s-r-e-e-r-a-j/MITMTOOL.git
 ```
-2.**Navigate in to the MITMTOOL directory**
+2. **Navigate in to the MITMTOOL directory**
 ```bash
 cd MITMTOOL
 ```
