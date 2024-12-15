@@ -162,6 +162,7 @@ def process_sniffed_pkt(pkt):
 
 
 def print_arp_res(arp_res):
+    os.system("clear")
     """ This function creates a menu where you can pick the device whose arp cache you want to poison. """
     # Program Header
     # Basic user interface header
@@ -181,7 +182,7 @@ def print_arp_res(arp_res):
                                                                            
      \033[0m""")
     print("\n\033[34m* Copyright © Sreeraj, 2024   ")
-    print("*GitHub: https://github.com/s-r-e-e-r-a-j \033[0m")
+    print("* GitHub: https://github.com/s-r-e-e-r-a-j \033[0m")
     print("")
     print("\033[93mID\t\tIP\t\t\tMAC Address\033[0m")
     print("_________________________________________________________")
