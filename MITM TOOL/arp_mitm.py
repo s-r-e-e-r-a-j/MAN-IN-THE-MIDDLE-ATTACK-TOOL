@@ -176,11 +176,12 @@ def print_arp_res(arp_res):
              | |\/| |   | |      | |    | |\/| |      | |    | |  | | | |  | | | |     
              | |  | |  _| |_     | |    | |  | |      | |    | |__| | | |__| | | |____ 
              |_|  |_| |_____|    |_|    |_|  |_|      |_|     \____/   \____/  |______|
+                   
+                                                                Developer: Sreeraj
                                                                            
      \033[0m""")
-    print("\n\033[34m* Copyright © Sreeraj, 2024   *")
-    print("\n* www.youtube.com/@debugspecter        *")
-    print("\n* https://github.com/s-r-e-e-r-a-j     *\033[0m")
+    print("\n\033[34m* Copyright © Sreeraj, 2024   ")
+    print("*GitHub: https://github.com/s-r-e-e-r-a-j \033[0m")
     print("")
     print("\033[93mID\t\tIP\t\t\tMAC Address\033[0m")
     print("_________________________________________________________")
